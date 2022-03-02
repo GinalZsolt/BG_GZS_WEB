@@ -1,8 +1,16 @@
 #kepek>tbody>tr>td{
     width: 35%;
+    text-align: center;
+    border: #f9eba4 solid 2px;
+
 }
-#kepek{
+td>div>img{
+    float: unset;
+}
+table{
     border-collapse: collapse;
+
+    margin: auto;
 }
 body{
     padding: 0;
