@@ -1,0 +1,63 @@
+#kepek>tbody>tr>td{
+    width: 35%;
+    text-align: center;
+    border: #f9eba4 solid 2px;
+
+}
+td>div>img{
+    float: unset;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header{
+    margin-top: 0;
+    padding-top: 0;
+    height: 20vh;
+}
+
+img[src*="logo"]{
+    height: 20vh;
+}
+
+header table{
+    width: 100vw;
+    background-color: #231f20; 
+}
+
+tbody td{
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.link{
+    text-decoration: none;
+    background: -webkit-linear-gradient(#f9eba4, #bc8425);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    background: -webkit-linear-gradient(#f9eba4, #bc8425);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+}
+
