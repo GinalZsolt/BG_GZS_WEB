@@ -4,6 +4,11 @@
     border: #f9eba4 solid 2px;
 
 }
+
+a{
+    text-decoration: none;
+}
+
 td>div>img{
     float: unset;
 }
@@ -67,3 +72,4 @@ h1{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
