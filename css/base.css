@@ -4,6 +4,11 @@
     border: #f9eba4 solid 2px;
 
 }
+
+a{
+    text-decoration: none;
+}
+
 td>div>img{
     float: unset;
 }
@@ -60,4 +65,5 @@ h1{
     -webkit-text-fill-color: transparent;
     font-size: 4vw;
 }
+
 
