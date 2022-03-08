@@ -39,7 +39,7 @@ header table{
     background-color: #231f20; 
 }
 
-tbody td{
+header tbody td{
     width: calc(100% / 3);
     text-align: center;
     padding: 0;
@@ -89,3 +89,31 @@ body{
 #alap{
     width: 60%;
 }
+
+}
+
+#jobb{
+    text-align-last: left;
+    line-height: 50px;
+    font-size: larger;
+}
+
+
+#bal{
+    text-align: right;
+}
+
+#bal img{
+    width: 50vh;
+    box-shadow: 10px 10px 15px #bc8425;
+    transition: width 0.2s;
+}
+
+#bal img:hover{
+    width: 55vh;
+}
+
+h2{
+    text-align: center;
+}
+
