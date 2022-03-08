@@ -15,6 +15,7 @@ td>div>img{
 table{
     border-collapse: collapse;
     margin: auto;
+    
 }
 
 body{
@@ -35,7 +36,7 @@ img[src*="logo"]{
 }
 
 header table{
-    width: 100%;
+    width: 100vw;
     background-color: #231f20; 
 }
 
@@ -60,22 +61,21 @@ tbody td{
 h1{
     padding: 0;
     margin: 0;
+    text-align: center;
     background: -webkit-linear-gradient(#f9eba4, #bc8425);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4vw;
 }
 
-#content{
-    background: linear-gradient(to bottom, #231f20 0%, white 100%);
-    height: 67vh;
-    margin: 0;
-    padding: 15px;
-    font-size: 2em;
-    color: #bc8425;
+body{
     background: rgb(35,31,32);
-    background: linear-gradient(180deg, rgba(35,31,32,1) 0%, rgba(128,126,127,1) 28%, rgba(180,179,179,1) 73%, rgba(238,238,238,1) 100%);
+background: linear-gradient(180deg, rgba(35,31,32,1) 54%,white);
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
+    color:#bc8425;
 }
-
+h2{
+    margin:10px;
+}
