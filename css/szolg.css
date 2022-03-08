@@ -70,7 +70,7 @@ h1{
 
 body{
     background: rgb(35,31,32);
-background: linear-gradient(180deg, rgba(35,31,32,1) 54%,white);
+    background: linear-gradient(180deg, rgba(35,31,32,1) 54%,white);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
