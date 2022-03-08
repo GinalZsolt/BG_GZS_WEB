@@ -76,6 +76,29 @@ body{
     background-attachment: fixed;
     color:#bc8425;
 }
-h2{
+h4{
     margin:10px;
+}
+
+#content{
+    width: 100%;
+    padding-left:5%;
+    padding-right:5%;
+    font-size: 1.5em;
+}
+
+#kepek{
+    width: 40%;
+    float: right;
+}
+
+#lista{
+    float: left;
+}
+
+@media screen and (max-width: 600px)
+{
+    #kepek{
+        display: none;
+    }
 }
